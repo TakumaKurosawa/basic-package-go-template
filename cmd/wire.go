@@ -1,13 +1,14 @@
-//+build wireinject
+//go:build wireinject
+// +build wireinject
 
 package main
 
 import (
-	userHandler "wantum/pkg/api/handler/user"
-	userInteractor "wantum/pkg/api/usecase/user"
-	"wantum/pkg/domain/repository"
-	userSvc "wantum/pkg/domain/service/user"
-	userRepo "wantum/pkg/infrastructure/mysql/user"
+	userHandler "projectName/pkg/api/handler/user"
+	userInteractor "projectName/pkg/api/usecase/user"
+	"projectName/pkg/domain/repository"
+	userSvc "projectName/pkg/domain/service/user"
+	userRepo "projectName/pkg/infrastructure/mysql/user"
 
 	"github.com/google/wire"
 )

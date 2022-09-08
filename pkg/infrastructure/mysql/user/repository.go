@@ -5,15 +5,15 @@ import (
 	"database/sql"
 	"fmt"
 	"net/http"
+	"projectName/pkg/api/middleware"
+	"projectName/pkg/domain/entity"
+	"projectName/pkg/domain/repository"
+	"projectName/pkg/domain/repository/user"
+	"projectName/pkg/infrastructure/mysql"
+	"projectName/pkg/tlog"
+	"projectName/pkg/werrors"
 	"runtime"
 	"time"
-	"wantum/pkg/api/middleware"
-	"wantum/pkg/domain/entity"
-	"wantum/pkg/domain/repository"
-	"wantum/pkg/domain/repository/user"
-	"wantum/pkg/infrastructure/mysql"
-	"wantum/pkg/tlog"
-	"wantum/pkg/werrors"
 )
 
 type userModel struct {

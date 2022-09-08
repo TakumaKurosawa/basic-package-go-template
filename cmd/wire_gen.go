@@ -6,11 +6,11 @@
 package main
 
 import (
-	"wantum/pkg/api/handler/user"
-	user4 "wantum/pkg/api/usecase/user"
-	"wantum/pkg/domain/repository"
-	user3 "wantum/pkg/domain/service/user"
-	user2 "wantum/pkg/infrastructure/mysql/user"
+	"projectName/pkg/api/handler/user"
+	user4 "projectName/pkg/api/usecase/user"
+	"projectName/pkg/domain/repository"
+	user3 "projectName/pkg/domain/service/user"
+	user2 "projectName/pkg/infrastructure/mysql/user"
 )
 
 // Injectors from wire.go:

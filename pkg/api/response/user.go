@@ -1,7 +1,7 @@
 package response
 
 import (
-	"wantum/pkg/domain/entity"
+	"projectName/pkg/domain/entity"
 )
 
 type UserResponse struct {

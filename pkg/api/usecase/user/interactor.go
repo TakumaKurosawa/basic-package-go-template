@@ -2,10 +2,10 @@ package user
 
 import (
 	"context"
-	"wantum/pkg/domain/entity"
-	"wantum/pkg/domain/repository"
-	userservice "wantum/pkg/domain/service/user"
-	"wantum/pkg/werrors"
+	"projectName/pkg/domain/entity"
+	"projectName/pkg/domain/repository"
+	userservice "projectName/pkg/domain/service/user"
+	"projectName/pkg/werrors"
 )
 
 type Interactor interface {

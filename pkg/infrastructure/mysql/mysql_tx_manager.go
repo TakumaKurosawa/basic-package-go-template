@@ -5,8 +5,8 @@ import (
 	"database/sql"
 	"errors"
 	"net/http"
-	"wantum/pkg/domain/repository"
-	"wantum/pkg/werrors"
+	"projectName/pkg/domain/repository"
+	"projectName/pkg/werrors"
 )
 
 type dbMasterTxManager struct {

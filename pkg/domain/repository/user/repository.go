@@ -2,8 +2,8 @@ package user
 
 import (
 	"context"
-	"wantum/pkg/domain/entity"
-	"wantum/pkg/domain/repository"
+	"projectName/pkg/domain/entity"
+	"projectName/pkg/domain/repository"
 )
 
 type Repository interface {

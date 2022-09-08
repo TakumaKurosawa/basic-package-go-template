@@ -7,8 +7,8 @@ package mock_user
 import (
 	"context"
 	reflect "reflect"
-	entity "wantum/pkg/domain/entity"
-	repository "wantum/pkg/domain/repository"
+	entity "projectName/pkg/domain/entity"
+	repository "projectName/pkg/domain/repository"
 
 	gomock "github.com/golang/mock/gomock"
 )

@@ -1,29 +1,29 @@
 linters-settings:
-    gocritic:
-        enabled-tags:
-            - performance
+  gocritic:
+    enabled-tags:
+      - performance
 
 linters:
-    enable:
-        - govet
-        - errcheck
-        - staticcheck
-        - unused
-        - gosimple
-        - structcheck
-        - varcheck
-        - ineffassign
-        - deadcode
-        - typecheck
-        - golint
-        - gocritic
+  enable:
+    - govet
+    - errcheck
+    - staticcheck
+    - unused
+    - gosimple
+    - structcheck
+    - varcheck
+    - ineffassign
+    - deadcode
+    - typecheck
+    - golint
+    - gocritic
 
 run:
-    timeout: 20m
-    skip-dirs:
-        - "pkg/.*/mock_.*"
-        - "middleware"
-        - "mysql"
+  timeout: 20m
+  skip-dirs:
+    - "pkg/.*/mock_.*"
+    - "middleware"
+    - "mysql"
 
 issues:
-    exclude-rules:
+  exclude-rules:

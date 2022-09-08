@@ -1,10 +1,10 @@
 package user
 
 import (
+	"projectName/pkg/domain/entity"
+	"projectName/pkg/domain/repository"
+	"projectName/pkg/domain/service/user/mock_user"
 	"testing"
-	"wantum/pkg/domain/entity"
-	"wantum/pkg/domain/repository"
-	"wantum/pkg/domain/service/user/mock_user"
 
 	"github.com/gin-gonic/gin"
 	"github.com/golang/mock/gomock"

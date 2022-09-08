@@ -6,11 +6,11 @@ import (
 	"errors"
 	"io"
 	"net/http"
-	"wantum/pkg/api/middleware"
-	"wantum/pkg/api/request/reqbody"
-	"wantum/pkg/api/response"
-	userinteractor "wantum/pkg/api/usecase/user"
-	"wantum/pkg/werrors"
+	"projectName/pkg/api/middleware"
+	"projectName/pkg/api/request/reqbody"
+	"projectName/pkg/api/response"
+	userinteractor "projectName/pkg/api/usecase/user"
+	"projectName/pkg/werrors"
 )
 
 type Server struct {

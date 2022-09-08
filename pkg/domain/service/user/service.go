@@ -2,10 +2,10 @@ package user
 
 import (
 	"context"
-	"wantum/pkg/domain/entity"
-	"wantum/pkg/domain/repository"
-	"wantum/pkg/domain/repository/user"
-	"wantum/pkg/werrors"
+	"projectName/pkg/domain/entity"
+	"projectName/pkg/domain/repository"
+	"projectName/pkg/domain/repository/user"
+	"projectName/pkg/werrors"
 )
 
 type Service interface {

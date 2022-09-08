@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-	"wantum/db/mysql"
-	"wantum/pkg/api/middleware"
-	tx "wantum/pkg/infrastructure/mysql"
+	"projectName/db/mysql"
+	"projectName/pkg/api/middleware"
+	tx "projectName/pkg/infrastructure/mysql"
 
 	"github.com/gorilla/mux"
 	"github.com/joho/godotenv"
